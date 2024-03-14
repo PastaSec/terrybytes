@@ -1,0 +1,15 @@
+REM Set Windows Screen Resolution to 1080p
+REM Brought to you by TerryBytes
+REM 
+
+DELETE_ALL_KEYS
+GUI r
+DELAY 200
+STRING display
+ENTER
+DELAY 500
+STRING 1920 x 1080
+TAB 2
+ENTER
+DELAY 500
+ALT F4

@@ -1,15 +1,30 @@
-REM Set Windows Screen Resolution to 1080p
-REM Brought to you by TerryBytes
-REM 
+MODEL Flipper Zero
+DELAY 500
+REM # {startup script}
+REM # {auto-run}
+REM # {for ducky}
+REM # {when flipper zero is in usb rubber ducky mode}
 
-DELETE_ALL_KEYS
-GUI r
-DELAY 200
-STRING display
+UDELAY 1000
+STR Delay 1000
 ENTER
-DELAY 500
-STRING 1920 x 1080
-TAB 2
+
+STR mode 640x480 32 @16
 ENTER
-DELAY 500
-ALT F4
+
+STR mode 1024x768 32 @16
+ENTER
+
+STR mode 1360x768 32 @16
+ENTER
+
+STR mode 1280x1024 32 @16
+ENTER
+
+STR mode 1920x1080 32 @16
+ENTER
+
+STR exit
+ENTER
+
+REM # {end of script}
